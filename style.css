@@ -237,7 +237,6 @@ p{
 
 
 .foot {
-
     /* background-color: aqua; */
     height: 20vh;
     display: flex;
@@ -358,8 +357,17 @@ h5 {
         height: 30px;
     }
     .menu ul{
-        margin: 0;
+        background-image: url("images/icon-hamburger.svg");
+        width: 40px;
+        height: 20px;
+        margin-top: -86px;
         padding: 0;
+    }
+    .menu li{
+        display: none;
+    }
+    .menu ul li:hover{
+        display: block;
     }
     .chat img{
         margin: 0;
