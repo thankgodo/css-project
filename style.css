@@ -53,7 +53,7 @@ body {
 }
 .desc h1 {
     /* background-color: aquamarine; */
-    width: 70%;
+    width: 26vw;
     font-size: 42px;
     margin-top: 0em;
     font-family: poppins;
@@ -61,8 +61,9 @@ body {
 }
 .desc p {
     /* background-color: aquamarine; */
-    width: 65%;
-    font-size: 15px;
+    width: 23vw;
+    height: 12vh;
+    font-size: 14px;
     font-weight: 200;
     margin-top: 0;
     font-family: poppins;
@@ -102,6 +103,7 @@ body {
     width: 20em;
 }
 .dif h1 {
+    margin-top: 0;
     font-size: 30px;
     font-weight: 800;
     font-family: poppins;
